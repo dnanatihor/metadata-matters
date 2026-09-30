@@ -6,12 +6,13 @@ import argparse
 import sys
 from pathlib import Path
 
-from mm.config import configs_dir, load_prices_config, load_run_config
+from mm.config import configs_dir, load_models_config, load_prices_config, load_run_config
 from mm.data.download import main as download_main
 from mm.data.fixture import load_fixture
 from mm.llm.budget import BudgetExceededError
-from mm.llm.runner import dry_run_summary, fixture_clients, run_rq1
 from mm.paths import repo_root
+from mm.report.readme import update_readme
+from mm.suite import fixture_summary, run_fixture
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -27,44 +28,51 @@ def main(argv: list[str] | None = None) -> int:
     run.add_argument("--dry-run", action="store_true")
     run.add_argument("--fixture", action="store_true")
 
+    report = sub.add_parser("report", help="Write metrics, a plot, and report.md for a run.")
+    report.add_argument("run_dir", type=Path)
+
+    sub.add_parser("readme", help="Refresh the README results section from results/.")
+
     args = parser.parse_args(argv)
     if args.command == "download":
         forwarded = ["--dest", str(args.dest)] if args.dest is not None else []
         return download_main(forwarded)
+    if args.command == "readme":
+        update_readme(repo_root() / "README.md", repo_root() / "results")
+        print("Updated README.md")
+        return 0
+    if args.command == "report":
+        from mm.suite import rebuild_report
+
+        rebuild_report(args.run_dir)
+        print(f"Wrote {args.run_dir / 'report.md'}")
+        return 0
     return _run(args)
 
 
 def _run(args: argparse.Namespace) -> int:
-    if args.rq != "rq1":
-        print(f"{args.rq} is not available yet", file=sys.stderr)
-        return 2
     config = load_run_config(args.config)
     if config.rq != args.rq:
         print(f"Config rq {config.rq} does not match {args.rq}", file=sys.stderr)
         return 2
-    prices = load_prices_config(configs_dir() / "prices.yaml")
+    root = configs_dir()
+    prices = load_prices_config(root / "prices.yaml")
+    models = load_models_config(root / "models.yaml")
     if not args.fixture:
-        print("Live model calls require a configured chat model. Use --fixture.", file=sys.stderr)
+        print(
+            "Live model calls require --fixture in this build, or a budgeted provider.",
+            file=sys.stderr,
+        )
         return 2
     dataset = load_fixture()
-    clients = fixture_clients()
     if args.dry_run:
-        count, estimate = dry_run_summary(
-            dataset=dataset, config=config, prices=prices, clients=clients
-        )
+        count, estimate = fixture_summary(dataset, config, prices, models)
         print(f"items: {count}")
         print(f"estimated_usd: {estimate:.6f}")
         return 0
     output = repo_root() / "results" / args.rq / _run_id()
     try:
-        written = run_rq1(
-            dataset=dataset,
-            config=config,
-            prices=prices,
-            clients=clients,
-            output_dir=output,
-            cache_path=repo_root() / "cache.db",
-        )
+        written = run_fixture(dataset, config, prices, models, output, repo_root() / "cache.db")
     except BudgetExceededError as exc:
         print(str(exc), file=sys.stderr)
         return 2

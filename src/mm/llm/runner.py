@@ -137,25 +137,24 @@ def run_rq1(
     )
     ended = _now()
     _write_predictions(output_dir / "predictions.jsonl", predictions)
-    manifest = {
-        "run_id": output_dir.name,
-        "git_commit": _git_commit(),
-        "package_versions": _package_versions(),
-        "model_ids": sorted({job.model_id for job in jobs}),
-        "prompt_version": PROMPT_VERSION,
-        "template_versions": [],
-        "dataset_checksum": dataset_checksum(dataset),
-        "sample_ids_file": "sample.json",
-        "seed": config.sample.seed,
-        "started_at": started,
-        "ended_at": ended,
-        "token_usage": usage,
-        "cost_usd": spent,
-        "rq": config.rq,
-        "estimated_usd": estimated,
-        "item_count": len(jobs),
-    }
-    _write_json(output_dir / "run.json", manifest)
+    write_manifest(
+        output_dir,
+        {
+            "run_id": output_dir.name,
+            "model_ids": sorted({job.model_id for job in jobs}),
+            "template_versions": [],
+            "dataset_checksum": dataset_checksum(dataset),
+            "sample_ids_file": "sample.json",
+            "seed": config.sample.seed,
+            "started_at": started,
+            "ended_at": ended,
+            "token_usage": usage,
+            "cost_usd": spent,
+            "rq": config.rq,
+            "estimated_usd": estimated,
+            "item_count": len(jobs),
+        },
+    )
     return output_dir
 
 
@@ -322,6 +321,17 @@ def _write_predictions(path: Path, predictions: list[Prediction]) -> None:
     with path.open("w", encoding="utf-8") as handle:
         for prediction in predictions:
             handle.write(json.dumps(prediction.__dict__, sort_keys=True) + "\n")
+
+
+def write_manifest(output_dir: Path, fields: dict[str, object]) -> None:
+    """Write ``run.json`` with git commit, package versions, and the prompt version."""
+    payload: dict[str, object] = {
+        "git_commit": _git_commit(),
+        "package_versions": _package_versions(),
+        "prompt_version": PROMPT_VERSION,
+    }
+    payload.update(fields)
+    _write_json(output_dir / "run.json", payload)
 
 
 def _write_json(path: Path, payload: object) -> None:

@@ -14,3 +14,4 @@ and this project uses [Semantic Versioning](https://semver.org/).
 - Phase 2 runner: response cache, budget guard, resume, and bootstrap and McNemar statistics.
 - Phase 3 decoy databases built on copies, with usage detection.
 - Phase 4 schema retrieval: relevance, ranking metrics, and an embedding cache.
+- Phase 5 reports and plots for fixture runs of RQ1-RQ4, and `mm readme`.

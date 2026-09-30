@@ -16,3 +16,9 @@ Planned: one command that runs on a fresh machine.
 ## Licence
 
 Apache-2.0. The BIRD dev set is not included. `scripts/download_bird.py` fetches it into `data/bird/`, which is gitignored. Confirm BIRD's licence at <https://bird-bench.github.io/> before publishing results that use it. Token prices in `configs/prices.yaml` are maintained by hand and must be checked before a paid run.
+
+## Results
+
+<!-- results:start -->
+<!-- results:end -->
+

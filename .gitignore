@@ -28,3 +28,4 @@ node_modules/
 data/bird/
 cache.db
 .embeddings_cache/
+embedding_cache/

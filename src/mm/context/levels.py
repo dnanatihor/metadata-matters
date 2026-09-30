@@ -46,6 +46,35 @@ def truncate_sample(value: object) -> str:
     return str(value)[:SAMPLE_MAX_CHARS]
 
 
+def build_retrieved_m2(
+    database: Database,
+    descriptions: tuple[ColumnDescription, ...],
+    column_ids: set[str],
+) -> str:
+    """M2-style schema limited to retrieved ``table.column`` identifiers."""
+    kept = tuple(
+        description
+        for description in descriptions
+        if f"{description.table_name}.{description.original_column_name}" in column_ids
+    )
+    if not kept:
+        return "-- no columns retrieved"
+    grouped = _group_descriptions(kept)
+    blocks: list[str] = []
+    for table, columns in grouped.items():
+        lines = [
+            f"CREATE TABLE {table} (",
+            ",\n".join(
+                f"  {column.original_column_name} {column.data_format or 'TEXT'}"
+                for column in columns
+            )
+            + "\n);",
+        ]
+        statement = lines[0] + "\n" + lines[1]
+        blocks.append(_annotate_statement(statement, columns, MetadataLevel.M2, database))
+    return "\n\n".join(blocks)
+
+
 def _annotate_statement(
     statement: str,
     columns: tuple[ColumnDescription, ...],
