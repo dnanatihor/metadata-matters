@@ -11,3 +11,4 @@ and this project uses [Semantic Versioning](https://semver.org/).
 - Repository created from SPEC.md.
 - Phase 0 scaffold: BIRD-layout loader, tiny fixture, config models, BIRD download script, and CI.
 - Phase 1 text-to-SQL context levels, prompt, SQL extraction, and execution accuracy.
+- Phase 2 runner: response cache, budget guard, resume, and bootstrap and McNemar statistics.

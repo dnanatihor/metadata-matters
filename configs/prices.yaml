@@ -2,6 +2,9 @@
 # Check vendor prices before any paid run; do not treat these zeros as a quote
 # for a hosted model.
 prices:
+  - model_id: stub-gold
+    usd_per_million_input_tokens: 0
+    usd_per_million_output_tokens: 0
   - model_id: sentence-transformers/all-MiniLM-L6-v2
     usd_per_million_input_tokens: 0
     usd_per_million_output_tokens: 0
