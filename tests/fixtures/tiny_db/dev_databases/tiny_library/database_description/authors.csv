@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+author_id,author id,Unique identifier of the author,integer,
+name,name,Full name of the author,text,
+country,country,Country where the author is based,text,ISO 3166-1 alpha-2 code such as NG or BR.

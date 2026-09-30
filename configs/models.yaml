@@ -1,0 +1,9 @@
+# Two local sentence-transformers models, as required for schema retrieval.
+# Chat models are not listed: SPEC.md §12.1 (providers and spend) is still open.
+models:
+  - id: sentence-transformers/all-MiniLM-L6-v2
+    kind: embedding
+    provider: sentence-transformers
+  - id: sentence-transformers/all-mpnet-base-v2
+    kind: embedding
+    provider: sentence-transformers

@@ -1,0 +1,22 @@
+---
+description: Engineering rules for metadata-matters (generated from SPEC.md by the portfolio bootstrap)
+globs:
+alwaysApply: true
+---
+
+# Shared rules
+
+- SPEC.md is the source of truth. Implement only the phase you are asked to implement.
+- Python 3.11+, uv, full type hints, mypy --strict on src/, ruff format and ruff check.
+- Write tests first wherever SPEC.md gives expected outputs.
+- No network access in tests; LLMs and external APIs are stubbed.
+- Never log or commit secrets. Never commit real personal data.
+- Record significant decisions and spike outcomes as ADRs in docs/adr/ using the template there.
+- If SPEC.md is ambiguous, stop and list the ambiguity; do not invent behaviour.
+
+# Project rules (from SPEC.md, Appendix A)
+
+- Never call a real model or embedding API in tests; only `mm run` without --fixture does that, behind the budget guard.
+- Never modify original databases; decoys are built on copies.
+- Every run writes run.json; results without one are invalid.
+- Report numbers only from generated metrics files, never typed by hand.

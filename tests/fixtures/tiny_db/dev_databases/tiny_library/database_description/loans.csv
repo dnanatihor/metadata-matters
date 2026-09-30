@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+loan_id,loan id,Unique identifier of the loan,integer,
+book_id,book id,book_id of the borrowed book,integer,
+borrower_city,borrower city,City of the borrower,text,
+loaned_on,loaned on,Date the loan started,text,ISO-8601 calendar date YYYY-MM-DD.
+days_kept,days kept,Number of days the borrower kept the book,integer,

@@ -1,0 +1,7 @@
+rq: rq2
+sample:
+  n: 500
+  seed: 0
+budget:
+  max_usd: 0
+models: []

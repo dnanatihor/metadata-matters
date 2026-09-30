@@ -1,0 +1,98 @@
+[
+  {
+    "question_id": 0,
+    "db_id": "tiny_library",
+    "question": "How many authors are in the catalogue?",
+    "evidence": "An author is one row in the authors table.",
+    "SQL": "SELECT COUNT(*) AS author_count FROM authors",
+    "difficulty": "simple"
+  },
+  {
+    "question_id": 1,
+    "db_id": "tiny_library",
+    "question": "What are the titles of the books?",
+    "evidence": "Titles are stored in books.title.",
+    "SQL": "SELECT title FROM books",
+    "difficulty": "simple"
+  },
+  {
+    "question_id": 2,
+    "db_id": "tiny_library",
+    "question": "Which books have a price above 2000 cents?",
+    "evidence": "price_cents is the price in cents. Above 2000 means price_cents > 2000.",
+    "SQL": "SELECT title FROM books WHERE price_cents > 2000",
+    "difficulty": "simple"
+  },
+  {
+    "question_id": 3,
+    "db_id": "tiny_library",
+    "question": "Which country code is recorded for the author named Ada Okonkwo?",
+    "evidence": "Match the author name exactly.",
+    "SQL": "SELECT country FROM authors WHERE name = 'Ada Okonkwo'",
+    "difficulty": "simple"
+  },
+  {
+    "question_id": 4,
+    "db_id": "tiny_library",
+    "question": "How many books has each author written? Return the author name and the book count.",
+    "evidence": "Count books grouped by author. Include authors who have written no books.",
+    "SQL": "SELECT a.name, COUNT(b.book_id) AS book_count FROM authors AS a LEFT JOIN books AS b ON a.author_id = b.author_id GROUP BY a.author_id, a.name",
+    "difficulty": "moderate"
+  },
+  {
+    "question_id": 5,
+    "db_id": "tiny_library",
+    "question": "What is the average price in cents of books whose genre is fiction?",
+    "evidence": "fiction is the exact genre string stored on books.",
+    "SQL": "SELECT AVG(price_cents) AS avg_price_cents FROM books WHERE genre = 'fiction'",
+    "difficulty": "moderate"
+  },
+  {
+    "question_id": 6,
+    "db_id": "tiny_library",
+    "question": "Which borrower cities had a loan in 2024?",
+    "evidence": "loaned_on is an ISO-8601 calendar date stored as text (YYYY-MM-DD).",
+    "SQL": "SELECT DISTINCT borrower_city FROM loans WHERE loaned_on >= '2024-01-01' AND loaned_on < '2025-01-01'",
+    "difficulty": "moderate"
+  },
+  {
+    "question_id": 7,
+    "db_id": "tiny_library",
+    "question": "What are the titles of books whose author has country code BR?",
+    "evidence": "BR is the country code stored on authors, not a country name.",
+    "SQL": "SELECT b.title FROM books AS b JOIN authors AS a ON b.author_id = a.author_id WHERE a.country = 'BR'",
+    "difficulty": "moderate"
+  },
+  {
+    "question_id": 8,
+    "db_id": "tiny_library",
+    "question": "Which author has the highest total of book prices in cents?",
+    "evidence": "Total price means the sum of price_cents across that author's books. One author is strictly highest.",
+    "SQL": "SELECT a.name FROM authors AS a JOIN books AS b ON a.author_id = b.author_id GROUP BY a.author_id, a.name ORDER BY SUM(b.price_cents) DESC LIMIT 1",
+    "difficulty": "challenging"
+  },
+  {
+    "question_id": 9,
+    "db_id": "tiny_library",
+    "question": "What is the average days kept for loans of books in the science genre?",
+    "evidence": "days_kept is stored on loans. genre is stored on books.",
+    "SQL": "SELECT AVG(l.days_kept) AS avg_days FROM loans AS l JOIN books AS b ON l.book_id = b.book_id WHERE b.genre = 'science'",
+    "difficulty": "challenging"
+  },
+  {
+    "question_id": 10,
+    "db_id": "tiny_library",
+    "question": "Which genres were loaned to more than one distinct borrower city?",
+    "evidence": "More than one city means COUNT(DISTINCT borrower_city) > 1.",
+    "SQL": "SELECT b.genre FROM loans AS l JOIN books AS b ON l.book_id = b.book_id GROUP BY b.genre HAVING COUNT(DISTINCT l.borrower_city) > 1",
+    "difficulty": "challenging"
+  },
+  {
+    "question_id": 11,
+    "db_id": "tiny_library",
+    "question": "For each author, how many loans were made of their books? Include authors with zero loans.",
+    "evidence": "Count loans of books written by the author. Keep authors who have no loans.",
+    "SQL": "SELECT a.name, COUNT(l.loan_id) AS loan_count FROM authors AS a LEFT JOIN books AS b ON a.author_id = b.author_id LEFT JOIN loans AS l ON b.book_id = l.book_id GROUP BY a.author_id, a.name",
+    "difficulty": "challenging"
+  }
+]
