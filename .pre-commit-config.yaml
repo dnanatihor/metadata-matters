@@ -3,9 +3,9 @@ repos:
     rev: v6.0.0
     hooks:
       - id: trailing-whitespace
-        exclude: ^tests/fixtures/.*\.sqlite$
+        exclude: \.sqlite$
       - id: end-of-file-fixer
-        exclude: ^tests/fixtures/.*\.sqlite$
+        exclude: \.sqlite$
       - id: check-yaml
       - id: check-json
       - id: check-added-large-files

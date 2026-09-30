@@ -1,0 +1,104 @@
+[
+  {
+    "mapping": {
+      "authors": "authors_legacy"
+    },
+    "question_id": 0,
+    "seed": 8,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "books": "books_legacy"
+    },
+    "question_id": 1,
+    "seed": 9,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "books": "books_legacy"
+    },
+    "question_id": 2,
+    "seed": 10,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "authors": "authors_legacy"
+    },
+    "question_id": 3,
+    "seed": 11,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "authors": "authors_legacy",
+      "books": "books_v1"
+    },
+    "question_id": 4,
+    "seed": 12,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "books": "books_legacy"
+    },
+    "question_id": 5,
+    "seed": 13,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "loans": "loans_legacy"
+    },
+    "question_id": 6,
+    "seed": 14,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "authors": "authors_v1",
+      "books": "books_legacy"
+    },
+    "question_id": 7,
+    "seed": 15,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "authors": "authors_legacy",
+      "books": "books_v1"
+    },
+    "question_id": 8,
+    "seed": 16,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "books": "books_v1",
+      "loans": "loans_legacy"
+    },
+    "question_id": 9,
+    "seed": 17,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "books": "books_v1",
+      "loans": "loans_legacy"
+    },
+    "question_id": 10,
+    "seed": 18,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  },
+  {
+    "mapping": {
+      "books": "books_legacy",
+      "loans": "loans_v1"
+    },
+    "question_id": 11,
+    "seed": 19,
+    "source_checksum": "c53a61763f0f32152ca395b4f86908ade9b387528ed83330fa1e6fd77ab18478"
+  }
+]

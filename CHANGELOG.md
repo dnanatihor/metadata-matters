@@ -15,3 +15,4 @@ and this project uses [Semantic Versioning](https://semver.org/).
 - Phase 3 decoy databases built on copies, with usage detection.
 - Phase 4 schema retrieval: relevance, ranking metrics, and an embedding cache.
 - Phase 5 reports and plots for fixture runs of RQ1-RQ4, and `mm readme`.
+- Phase 6 fixture runs of RQ1-RQ4, generated README results, and `docs/findings.md`.

@@ -1,0 +1,7 @@
+label,condition,estimate,low,high,n,metric
+D0,D0,1.0,1.0,1.0,12,ex
+D1,D1,1.0,1.0,1.0,12,ex
+D2,D2,1.0,1.0,1.0,12,ex
+D0,D0,0.0,0.0,0.0,12,decoy_usage
+D1,D1,0.0,0.0,0.0,12,decoy_usage
+D2,D2,0.0,0.0,0.0,12,decoy_usage

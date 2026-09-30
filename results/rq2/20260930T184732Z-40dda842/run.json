@@ -1,0 +1,29 @@
+{
+  "cost_usd": 0.0,
+  "dataset_checksum": "bcd56cd45942a87654ec13ebb1c1af714c2c6d6a0c43dfe09872d865da5adbde",
+  "decoy_seed": 8,
+  "ended_at": "2026-09-30T18:47:33.434639+00:00",
+  "estimated_usd": 0.0,
+  "git_commit": "584cfb16ed9a6e370e56ed12dc53035e8f5f4b44",
+  "item_count": 36,
+  "model_ids": [
+    "stub-gold"
+  ],
+  "package_versions": {
+    "metadata-matters": "0.1.0",
+    "numpy": "2.4.6",
+    "pydantic": "2.13.5",
+    "scipy": "1.17.1"
+  },
+  "prompt_version": "text_to_sql.v1",
+  "rq": "rq2",
+  "run_id": "20260930T184732Z-40dda842",
+  "sample_ids_file": "sample.json",
+  "seed": 0,
+  "started_at": "2026-09-30T18:47:32.417393+00:00",
+  "template_versions": [],
+  "token_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}
