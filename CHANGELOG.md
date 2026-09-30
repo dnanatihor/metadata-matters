@@ -13,3 +13,4 @@ and this project uses [Semantic Versioning](https://semver.org/).
 - Phase 1 text-to-SQL context levels, prompt, SQL extraction, and execution accuracy.
 - Phase 2 runner: response cache, budget guard, resume, and bootstrap and McNemar statistics.
 - Phase 3 decoy databases built on copies, with usage detection.
+- Phase 4 schema retrieval: relevance, ranking metrics, and an embedding cache.
