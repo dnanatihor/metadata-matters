@@ -3,11 +3,15 @@
 from __future__ import annotations
 
 import json
+import threading
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, datetime
 from pathlib import Path
 
-from mm.config import ModelsConfig, PricesConfig, RunConfig, TokenPrice
+import sqlglot
+
+from mm.config import ModelKind, ModelsConfig, PricesConfig, RunConfig, TokenPrice
 from mm.context.levels import MetadataLevel, build_retrieved_m2, build_schema
 from mm.data.bird import Dataset, Example
 from mm.data.sample import stratified_sample
@@ -30,13 +34,15 @@ from mm.evaluate.stats import bootstrap_mean_ci
 from mm.llm.budget import call_cost, estimate_call_cost, price_for, require_within_budget
 from mm.llm.cache import CachedCompletion, ResponseCache
 from mm.llm.extract_sql import extract_sql
-from mm.llm.runner import dataset_checksum, dry_run_summary, run_rq1, write_manifest
+from mm.llm.langchain_chat import LangChainChat
+from mm.llm.runner import ChatClient, dataset_checksum, dry_run_summary, run_rq1, write_manifest
 from mm.llm.stub import GoldSqlStub
 from mm.prompt import PROMPT_VERSION, render_text_to_sql
 from mm.report.tables import M3_CAVEAT, read_jsonl, write_metrics_report
-from mm.retrieval.corpus import TEMPLATES, Document, build_corpus, corpus_hash, filter_corpus
-from mm.retrieval.embed import HashEmbedder, cached_embed
+from mm.retrieval.corpus import TEMPLATES, Document, build_corpus, corpus_hash
+from mm.retrieval.embed import Embedder, HashEmbedder, cached_embed
 from mm.retrieval.index import rank_documents
+from mm.retrieval.local_embed import SentenceTransformerEmbedder
 
 QUERY_MODES = ("question", "question_evidence")
 SETTINGS = ("in_database", "global")
@@ -57,7 +63,7 @@ def fixture_summary(
     if config.rq == "rq2":
         count = len(sample) * len(DecoyCondition)
         return count, count * estimate_call_cost("x" * 400, price)
-    embedders = _embedders(config, models)
+    embedders = _embedders(config, models, live=False)
     if config.rq == "rq3":
         count = len(sample) * len(TEMPLATES) * len(embedders) * len(QUERY_MODES) * len(SETTINGS)
         return count, 0.0
@@ -88,10 +94,146 @@ def run_fixture(
         _report_binary(output_dir, "RQ1 execution accuracy", "level", [M3_CAVEAT])
         return output_dir
     if config.rq == "rq2":
-        return _run_rq2(dataset, config, prices, output_dir, cache_path)
+        return _run_rq2(
+            dataset, config, prices, output_dir, cache_path, client=GoldSqlStub(), timeout_s=5
+        )
     if config.rq == "rq3":
-        return _run_rq3(dataset, config, models, output_dir, cache_path)
-    return _run_rq4(dataset, config, prices, models, output_dir, cache_path)
+        return _run_rq3(
+            dataset,
+            config,
+            models,
+            output_dir,
+            cache_path,
+            embedders=_embedders(config, models, live=False),
+            embedding_note="Hash embeddings stand in for sentence-transformers on fixture runs.",
+        )
+    return _run_rq4(
+        dataset,
+        config,
+        prices,
+        models,
+        output_dir,
+        cache_path,
+        client=GoldSqlStub(),
+        embedders=_embedders(config, models, live=False),
+        timeout_s=5,
+    )
+
+
+def run_live(
+    dataset: Dataset,
+    config: RunConfig,
+    prices: PricesConfig,
+    models: ModelsConfig,
+    output_dir: Path,
+    cache_path: Path,
+) -> Path:
+    """Run one RQ on a downloaded dataset with configured chat and embedding models."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    if config.rq == "rq1":
+        clients = _chat_clients(config, models)
+        run_rq1(
+            dataset=dataset,
+            config=config,
+            prices=prices,
+            clients=clients,
+            output_dir=output_dir,
+            cache_path=cache_path,
+            concurrency={client.provider: 8 for client in clients},
+        )
+        _report_binary(output_dir, "RQ1 execution accuracy", "level", [M3_CAVEAT])
+        return output_dir
+    if config.rq == "rq2":
+        return _run_rq2(
+            dataset,
+            config,
+            prices,
+            output_dir,
+            cache_path,
+            client=_chat_clients(config, models)[0],
+            timeout_s=30,
+        )
+    embedders = _embedders(config, models, live=True)
+    if config.rq == "rq3":
+        return _run_rq3(
+            dataset,
+            config,
+            models,
+            output_dir,
+            cache_path,
+            embedders=embedders,
+            embedding_note="Local sentence-transformers models named in the run.",
+        )
+    return _run_rq4(
+        dataset,
+        config,
+        prices,
+        models,
+        output_dir,
+        cache_path,
+        client=_chat_clients(config, models)[0],
+        embedders=embedders,
+        timeout_s=30,
+    )
+
+
+def live_summary(
+    dataset: Dataset, config: RunConfig, prices: PricesConfig, models: ModelsConfig
+) -> tuple[int, float]:
+    """Item count and cost estimate for a live run. Does not call a model."""
+    if config.rq == "rq3":
+        sample = stratified_sample(dataset.examples, config.sample.n, config.sample.seed)
+        embedders = _embedders(config, models, live=True)
+        count = len(sample) * len(TEMPLATES) * len(embedders) * len(QUERY_MODES) * len(SETTINGS)
+        return count, 0.0
+    client = _chat_clients(config, models)[0]
+    if config.rq == "rq1":
+        return dry_run_summary(dataset=dataset, config=config, prices=prices, clients=[client])
+    if config.rq == "rq2":
+        return _estimate_schema_calls(dataset, config, prices, client, repeats=len(DecoyCondition))
+    embedders = _embedders(config, models, live=True)
+    repeats = 1 + len(TEMPLATES) * len(embedders) * len(TOP_K)
+    return _estimate_schema_calls(
+        dataset, config, prices, client, repeats=repeats, level=MetadataLevel.M2
+    )
+
+
+def _estimate_schema_calls(
+    dataset: Dataset,
+    config: RunConfig,
+    prices: PricesConfig,
+    client: ChatClient,
+    *,
+    repeats: int,
+    level: MetadataLevel = MetadataLevel.M1,
+) -> tuple[int, float]:
+    sample = stratified_sample(dataset.examples, config.sample.n, config.sample.seed)
+    price = price_for(prices, client.model_id)
+    total = 0.0
+    descriptions = {
+        database.db_id: dataset.column_descriptions(database.db_id)
+        for database in dataset.databases
+    }
+    for example in sample:
+        schema = build_schema(
+            dataset.database(example.db_id),
+            level,
+            evidence=example.evidence,
+            descriptions=descriptions[example.db_id],
+        )
+        rendered = render_text_to_sql(schema, example.question)
+        total += estimate_call_cost(rendered.full_prompt, price) * repeats
+    return len(sample) * repeats, total
+
+
+def _chat_clients(config: RunConfig, models: ModelsConfig) -> list[LangChainChat]:
+    specs = [model for model in models.models if model.kind is ModelKind.CHAT]
+    named = [model for model in specs if not config.models or model.id in config.models]
+    chosen = named or specs
+    if not chosen:
+        message = "No chat model is configured. Add one to configs/models.yaml."
+        raise ValueError(message)
+    return [LangChainChat(model.id, model.provider) for model in chosen]
 
 
 def _run_rq2(
@@ -100,16 +242,21 @@ def _run_rq2(
     prices: PricesConfig,
     output_dir: Path,
     cache_path: Path,
+    *,
+    client: ChatClient,
+    timeout_s: float,
 ) -> Path:
     sample = stratified_sample(dataset.examples, config.sample.n, config.sample.seed)
-    client = GoldSqlStub()
     price = price_for(prices, client.model_id)
-    estimate = len(sample) * len(DecoyCondition) * estimate_call_cost("schema", price)
+    _count, estimate = _estimate_schema_calls(
+        dataset, config, prices, client, repeats=len(DecoyCondition)
+    )
     require_within_budget(estimate, config.budget.max_usd)
     cache = ResponseCache(cache_path)
     started = _now()
     rows: list[dict[str, object]] = []
     recorded: list[dict[str, object]] = []
+    skipped: list[int] = []
     descriptions = {
         database.db_id: dataset.column_descriptions(database.db_id)
         for database in dataset.databases
@@ -118,12 +265,17 @@ def _run_rq2(
     for example in sample:
         original = dataset.database(example.db_id)
         copy = output_dir / "decoys" / f"{example.question_id}.sqlite"
-        built = build_decoy_database(
-            original.sqlite_path,
-            copy,
-            example.sql,
-            FIXTURE_DECOY_SEED + example.question_id,
-        )
+        try:
+            built = build_decoy_database(
+                original.sqlite_path,
+                copy,
+                example.sql,
+                FIXTURE_DECOY_SEED + example.question_id,
+            )
+        except (ValueError, sqlglot.errors.SqlglotError):
+            skipped.append(example.question_id)
+            copy.unlink(missing_ok=True)
+            continue
         recorded.append(
             {
                 "question_id": example.question_id,
@@ -146,7 +298,7 @@ def _run_rq2(
             text, cost = _complete(cache, client, example, rendered.full_prompt, price)
             spent += cost
             predicted = extract_sql(text)
-            judgement = judge_execution(judged_on, example.sql, predicted, timeout_s=5)
+            judgement = judge_execution(judged_on, example.sql, predicted, timeout_s=timeout_s)
             rows.append(
                 {
                     "question_id": example.question_id,
@@ -157,6 +309,9 @@ def _run_rq2(
                     "uses_decoy": bool(predicted and uses_decoy(predicted, decoy_names)),
                 }
             )
+        # Decoy SQLite copies are large; keep only mapping/seed in decoys.json.
+        for path in (copy, Path(f"{copy}-journal"), Path(f"{copy}-wal"), Path(f"{copy}-shm")):
+            path.unlink(missing_ok=True)
     _write_jsonl(output_dir / "predictions.jsonl", rows)
     _write_json(output_dir / "decoys.json", recorded)
     _write_json(output_dir / "sample.json", [example.question_id for example in sample])
@@ -172,7 +327,10 @@ def _run_rq2(
         rows=metrics,
         label_column="label",
         value_column="estimate",
-        caveats=["Decoy tables exist only on copies. Checksums are in decoys.json."],
+        caveats=[
+            "Decoy tables exist only on copies. Checksums are in decoys.json.",
+            f"{len(skipped)} examples skipped: gold SQL named no local table.",
+        ],
     )
     write_manifest(
         output_dir,
@@ -184,6 +342,7 @@ def _run_rq2(
             "sample_ids_file": "sample.json",
             "seed": config.sample.seed,
             "decoy_seed": FIXTURE_DECOY_SEED,
+            "skipped_question_ids": skipped,
             "started_at": started,
             "ended_at": _now(),
             "token_usage": {"input_tokens": 0, "output_tokens": 0},
@@ -202,22 +361,29 @@ def _run_rq3(
     models: ModelsConfig,
     output_dir: Path,
     cache_path: Path,
+    *,
+    embedders: list[Embedder],
+    embedding_note: str,
 ) -> Path:
+    del models
     sample = stratified_sample(dataset.examples, config.sample.n, config.sample.seed)
-    embedders = _embedders(config, models)
     started = _now()
     failures = 0
     rows: list[dict[str, object]] = []
     databases = {database.db_id: database for database in dataset.databases}
-    corpora: dict[tuple[str, str, str], tuple[Document, ...]] = {}
+    by_template: dict[str, dict[str, tuple[Document, ...]]] = {
+        template: {} for template in TEMPLATES
+    }
     for database in databases.values():
         descriptions = dataset.column_descriptions(database.db_id)
         for template in TEMPLATES:
-            documents = build_corpus(database, descriptions, template)
-            for setting in SETTINGS:
-                corpora[(database.db_id, template, setting)] = filter_corpus(
-                    documents, setting, database.db_id
-                )
+            by_template[template][database.db_id] = build_corpus(database, descriptions, template)
+    global_corpus = {
+        template: tuple(
+            document for grouped in by_template[template].values() for document in grouped
+        )
+        for template in TEMPLATES
+    }
     cache_dir = cache_path.parent / "embedding_cache"
     for example in sample:
         database = databases[example.db_id]
@@ -227,7 +393,11 @@ def _run_rq3(
             continue
         for template in TEMPLATES:
             for setting in SETTINGS:
-                documents = corpora[(example.db_id, template, setting)]
+                documents = (
+                    global_corpus[template]
+                    if setting == "global"
+                    else by_template[template][example.db_id]
+                )
                 texts = [document.text for document in documents]
                 digest = corpus_hash(documents)
                 for embedder in embedders:
@@ -271,7 +441,7 @@ def _run_rq3(
         value_column="estimate",
         caveats=[
             f"Relevance extraction failed on {failures} examples; they are excluded.",
-            "Hash embeddings stand in for sentence-transformers on fixture runs.",
+            embedding_note,
         ],
     )
     write_manifest(
@@ -304,13 +474,18 @@ def _run_rq4(
     models: ModelsConfig,
     output_dir: Path,
     cache_path: Path,
+    *,
+    client: ChatClient,
+    embedders: list[Embedder],
+    timeout_s: float,
 ) -> Path:
+    del models
     sample = stratified_sample(dataset.examples, config.sample.n, config.sample.seed)
-    client = GoldSqlStub()
     price = price_for(prices, client.model_id)
-    embedders = _embedders(config, models)
-    count = len(sample) * (1 + len(TEMPLATES) * len(embedders) * len(TOP_K))
-    estimate = count * estimate_call_cost("schema", price)
+    repeats = 1 + len(TEMPLATES) * len(embedders) * len(TOP_K)
+    _count, estimate = _estimate_schema_calls(
+        dataset, config, prices, client, repeats=repeats, level=MetadataLevel.M2
+    )
     require_within_budget(estimate, config.budget.max_usd)
     cache = ResponseCache(cache_path)
     started = _now()
@@ -328,7 +503,7 @@ def _run_rq4(
                 template,
             )
     cache_dir = cache_path.parent / "embedding_cache"
-    spent = 0.0
+    prompts: list[tuple[Example, str, str]] = []
     for example in sample:
         database = dataset.database(example.db_id)
         full = build_schema(
@@ -336,11 +511,7 @@ def _run_rq4(
             MetadataLevel.M2,
             descriptions=descriptions[example.db_id],
         )
-        rendered = render_text_to_sql(full, example.question)
-        text, cost = _complete(cache, client, example, rendered.full_prompt, price)
-        spent += cost
-        judgement = judge_execution(database, example.sql, extract_sql(text), timeout_s=5)
-        rows.append(_ex_row(example.question_id, "full-m2", judgement.correct))
+        prompts.append((example, "full-m2", render_text_to_sql(full, example.question).full_prompt))
         for template in TEMPLATES:
             documents = corpora[(example.db_id, template)]
             texts = [document.text for document in documents]
@@ -356,19 +527,35 @@ def _run_rq4(
                         descriptions[example.db_id],
                         set(columns[:k]),
                     )
-                    limited = render_text_to_sql(schema, example.question)
-                    limited_text, limited_cost = _complete(
-                        cache, client, example, limited.full_prompt, price
-                    )
-                    spent += limited_cost
-                    limited_judgement = judge_execution(
-                        database,
-                        example.sql,
-                        extract_sql(limited_text),
-                        timeout_s=5,
-                    )
                     label = f"{template}-{embedder.model_id}-k{k}"
-                    rows.append(_ex_row(example.question_id, label, limited_judgement.correct))
+                    prompts.append(
+                        (example, label, render_text_to_sql(schema, example.question).full_prompt)
+                    )
+    spent_box = [0.0]
+    spent_lock = threading.Lock()
+
+    def _one(item: tuple[Example, str, str]) -> dict[str, object] | None:
+        example, label, full_prompt = item
+        with spent_lock:
+            if config.budget.max_usd > 0 and spent_box[0] >= config.budget.max_usd:
+                return None
+        text, cost = _complete(cache, client, example, full_prompt, price)
+        with spent_lock:
+            spent_box[0] += cost
+        judgement = judge_execution(
+            dataset.database(example.db_id),
+            example.sql,
+            extract_sql(text),
+            timeout_s=timeout_s,
+        )
+        return _ex_row(example.question_id, label, judgement.correct)
+
+    workers = 1 if client.provider == "stub" else 8
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for row in pool.map(_one, prompts):
+            if row is not None:
+                rows.append(row)
+    spent = spent_box[0]
     _write_jsonl(output_dir / "predictions.jsonl", rows)
     _write_json(output_dir / "sample.json", [example.question_id for example in sample])
     write_metrics_report(
@@ -491,7 +678,7 @@ def _group_mean_multi(
 
 def _complete(
     cache: ResponseCache,
-    client: GoldSqlStub,
+    client: ChatClient,
     example: Example,
     full_prompt: str,
     price: TokenPrice,
@@ -505,10 +692,12 @@ def _complete(
     return fresh.text, call_cost(fresh.input_tokens, fresh.output_tokens, price)
 
 
-def _embedders(config: RunConfig, models: ModelsConfig) -> list[HashEmbedder]:
-    ids = list(config.models)
-    if not ids:
-        ids = [model.id for model in models.models if model.kind.value == "embedding"]
+def _embedders(config: RunConfig, models: ModelsConfig, *, live: bool) -> list[Embedder]:
+    embedding_ids = [model.id for model in models.models if model.kind is ModelKind.EMBEDDING]
+    named = [model_id for model_id in config.models if model_id in embedding_ids]
+    ids = named or embedding_ids
+    if live:
+        return [SentenceTransformerEmbedder(model_id) for model_id in ids]
     return [HashEmbedder(model_id) for model_id in ids]
 
 

@@ -16,3 +16,5 @@ and this project uses [Semantic Versioning](https://semver.org/).
 - Phase 4 schema retrieval: relevance, ranking metrics, and an embedding cache.
 - Phase 5 reports and plots for fixture runs of RQ1-RQ4, and `mm readme`.
 - Phase 6 fixture runs of RQ1-RQ4, generated README results, and `docs/findings.md`.
+- Live BIRD-dev runs (500 questions) for RQ1-RQ4 with `gpt-4.1-mini` and local sentence-transformers.
+- Live runs call `gpt-4.1-mini` and local sentence-transformers when `--fixture` is omitted.

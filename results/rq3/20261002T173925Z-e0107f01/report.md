@@ -1,0 +1,59 @@
+# RQ3 schema retrieval
+
+## Method
+
+Fixture run with stub models. Numbers below are read from metrics.csv.
+
+## Results
+
+| label | estimate | low | high | n |
+| --- | --- | --- | --- | --- |
+| t0 sentence-transformers/all-MiniLM-L6-v2 global question | 0.27888665223665227 | 0.24857278318903317 | 0.30871716089466084 | 500 |
+| t0 sentence-transformers/all-MiniLM-L6-v2 global question_evidence | 0.31445173160173157 | 0.27891716450216447 | 0.3461346446608946 | 500 |
+| t0 sentence-transformers/all-MiniLM-L6-v2 in_database question | 0.31073268398268394 | 0.2777819967532468 | 0.34363693181818183 | 500 |
+| t0 sentence-transformers/all-MiniLM-L6-v2 in_database question_evidence | 0.3451834776334777 | 0.3067512950937951 | 0.37864606060606065 | 500 |
+| t0 sentence-transformers/all-mpnet-base-v2 global question | 0.25411356421356424 | 0.22307106421356418 | 0.28208434884559885 | 500 |
+| t0 sentence-transformers/all-mpnet-base-v2 global question_evidence | 0.27982077922077925 | 0.24654407828282826 | 0.30988651875901874 | 500 |
+| t0 sentence-transformers/all-mpnet-base-v2 in_database question | 0.2953357864357864 | 0.2609060551948052 | 0.32634512987012987 | 500 |
+| t0 sentence-transformers/all-mpnet-base-v2 in_database question_evidence | 0.31195966810966813 | 0.27693046897546897 | 0.34498312590187585 | 500 |
+| t1 sentence-transformers/all-MiniLM-L6-v2 global question | 0.2705771284271284 | 0.23869508116883117 | 0.3001944101731602 | 500 |
+| t1 sentence-transformers/all-MiniLM-L6-v2 global question_evidence | 0.302648556998557 | 0.26873280844155845 | 0.3350494859307359 | 500 |
+| t1 sentence-transformers/all-MiniLM-L6-v2 in_database question | 0.3142001443001443 | 0.2809008351370851 | 0.3467416973304473 | 500 |
+| t1 sentence-transformers/all-MiniLM-L6-v2 in_database question_evidence | 0.3405437950937951 | 0.3033516323953824 | 0.37455542027417027 | 500 |
+| t1 sentence-transformers/all-mpnet-base-v2 global question | 0.2509920634920635 | 0.21931277777777777 | 0.2791485714285714 | 500 |
+| t1 sentence-transformers/all-mpnet-base-v2 global question_evidence | 0.2734564213564214 | 0.2401387103174603 | 0.30433412878787874 | 500 |
+| t1 sentence-transformers/all-mpnet-base-v2 in_database question | 0.2946952380952381 | 0.2613165873015873 | 0.327094246031746 | 500 |
+| t1 sentence-transformers/all-mpnet-base-v2 in_database question_evidence | 0.3119429292929293 | 0.27733237734487737 | 0.3451182160894661 | 500 |
+| t2 sentence-transformers/all-MiniLM-L6-v2 global question | 0.2930049062049062 | 0.2608964538239538 | 0.3221318272005772 | 500 |
+| t2 sentence-transformers/all-MiniLM-L6-v2 global question_evidence | 0.32177077922077923 | 0.2882964321789322 | 0.35354738636363636 | 500 |
+| t2 sentence-transformers/all-MiniLM-L6-v2 in_database question | 0.32574855699855704 | 0.2912246681096681 | 0.3585984776334777 | 500 |
+| t2 sentence-transformers/all-MiniLM-L6-v2 in_database question_evidence | 0.3533183982683983 | 0.3168925144300144 | 0.3860591468253968 | 500 |
+| t2 sentence-transformers/all-mpnet-base-v2 global question | 0.28368095238095237 | 0.2507747023809524 | 0.3118919246031746 | 500 |
+| t2 sentence-transformers/all-mpnet-base-v2 global question_evidence | 0.3039461038961039 | 0.2692766486291487 | 0.3339629888167388 | 500 |
+| t2 sentence-transformers/all-mpnet-base-v2 in_database question | 0.31760396825396825 | 0.2827994246031746 | 0.34819728174603176 | 500 |
+| t2 sentence-transformers/all-mpnet-base-v2 in_database question_evidence | 0.3372246753246753 | 0.3011910119047619 | 0.36979623196248196 | 500 |
+| t3 sentence-transformers/all-MiniLM-L6-v2 global question | 0.29409689754689755 | 0.2608858874458874 | 0.32464928751803757 | 500 |
+| t3 sentence-transformers/all-MiniLM-L6-v2 global question_evidence | 0.3136802308802309 | 0.2798534541847042 | 0.3443952489177489 | 500 |
+| t3 sentence-transformers/all-MiniLM-L6-v2 in_database question | 0.3236008658008658 | 0.28931558802308804 | 0.3557136562049062 | 500 |
+| t3 sentence-transformers/all-MiniLM-L6-v2 in_database question_evidence | 0.341641341991342 | 0.30682572691197685 | 0.3740353571428572 | 500 |
+| t3 sentence-transformers/all-mpnet-base-v2 global question | 0.2930651515151515 | 0.2578173015873016 | 0.3220726118326119 | 500 |
+| t3 sentence-transformers/all-mpnet-base-v2 global question_evidence | 0.31070404040404037 | 0.27617292929292936 | 0.3419160912698413 | 500 |
+| t3 sentence-transformers/all-mpnet-base-v2 in_database question | 0.320038961038961 | 0.28398803030303027 | 0.3500978499278499 | 500 |
+| t3 sentence-transformers/all-mpnet-base-v2 in_database question_evidence | 0.33781118326118326 | 0.3005196446608947 | 0.37091687770562776 | 500 |
+| t4 sentence-transformers/all-MiniLM-L6-v2 global question | 0.3025984848484849 | 0.26865863095238096 | 0.3334841486291486 | 500 |
+| t4 sentence-transformers/all-MiniLM-L6-v2 global question_evidence | 0.33082070707070704 | 0.29640391233766233 | 0.3629496536796536 | 500 |
+| t4 sentence-transformers/all-MiniLM-L6-v2 in_database question | 0.332043722943723 | 0.2958981006493507 | 0.3635890692640693 | 500 |
+| t4 sentence-transformers/all-MiniLM-L6-v2 in_database question_evidence | 0.34854531024531027 | 0.3124038798701299 | 0.38188374098124095 | 500 |
+| t4 sentence-transformers/all-mpnet-base-v2 global question | 0.27157705627705625 | 0.23946159451659452 | 0.299152123015873 | 500 |
+| t4 sentence-transformers/all-mpnet-base-v2 global question_evidence | 0.3116381673881674 | 0.277006341991342 | 0.34273315476190475 | 500 |
+| t4 sentence-transformers/all-mpnet-base-v2 in_database question | 0.30455165945165946 | 0.26965091450216444 | 0.3349955483405483 | 500 |
+| t4 sentence-transformers/all-mpnet-base-v2 in_database question_evidence | 0.33687308802308796 | 0.30047510101010094 | 0.3706276713564214 | 500 |
+
+## Plots
+
+![metrics](plots/metrics.png)
+
+## Caveats
+
+- Relevance extraction failed on 0 examples; they are excluded.
+- Local sentence-transformers models named in the run.

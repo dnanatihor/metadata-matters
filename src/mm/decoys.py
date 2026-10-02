@@ -95,7 +95,7 @@ def build_decoy_database(source: Path, dest: Path, gold_sql: str, seed: int) -> 
         raise ValueError(message)
     checksum = file_checksum(source)
     dest.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(source, dest)
+    shutil.copyfile(source, dest)
     real_tables = _existing_tables(source, referenced_tables(gold_sql))
     chosen = _choose_tables(real_tables, seed)
     mapping = {real: _pattern_name(real, index) for index, real in enumerate(chosen)}
@@ -166,6 +166,8 @@ def _populate_decoys(dest: Path, mapping: dict[str, str], seed: int) -> None:
     rng = np.random.default_rng(seed)
     connection = sqlite3.connect(dest)
     connection.row_factory = sqlite3.Row
+    connection.execute("PRAGMA journal_mode = OFF")
+    connection.execute("PRAGMA synchronous = OFF")
     try:
         for real, decoy in mapping.items():
             connection.execute(f"CREATE TABLE {_quote(decoy)} AS SELECT * FROM {_quote(real)}")
@@ -183,11 +185,15 @@ def _drop_rows(connection: sqlite3.Connection, table: str, rng: np.random.Genera
     if drop_count <= 0 or not keys:
         return
     chosen = rng.choice(len(keys), size=drop_count, replace=False)
-    for index in chosen:
-        connection.execute(
-            f"DELETE FROM {_quote(table)} WHERE {_quote(primary)} = ?",
-            (keys[int(index)],),
-        )
+    connection.execute("CREATE TEMP TABLE mm_drop (k)")
+    connection.executemany(
+        "INSERT INTO mm_drop (k) VALUES (?)",
+        ((keys[int(index)],) for index in chosen),
+    )
+    connection.execute(
+        f"DELETE FROM {_quote(table)} WHERE {_quote(primary)} IN (SELECT k FROM mm_drop)"
+    )
+    connection.execute("DROP TABLE mm_drop")
 
 
 def _scale_numeric(connection: sqlite3.Connection, table: str, rng: np.random.Generator) -> None:

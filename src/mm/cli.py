@@ -7,12 +7,13 @@ import sys
 from pathlib import Path
 
 from mm.config import configs_dir, load_models_config, load_prices_config, load_run_config
+from mm.data.bird import load_bird_layout
 from mm.data.download import main as download_main
 from mm.data.fixture import load_fixture
 from mm.llm.budget import BudgetExceededError
 from mm.paths import repo_root
 from mm.report.readme import update_readme
-from mm.suite import fixture_summary, run_fixture
+from mm.suite import fixture_summary, live_summary, run_fixture, run_live
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -58,21 +59,17 @@ def _run(args: argparse.Namespace) -> int:
     root = configs_dir()
     prices = load_prices_config(root / "prices.yaml")
     models = load_models_config(root / "models.yaml")
-    if not args.fixture:
-        print(
-            "Live model calls require --fixture in this build, or a budgeted provider.",
-            file=sys.stderr,
-        )
-        return 2
-    dataset = load_fixture()
+    dataset = load_fixture() if args.fixture else load_bird_layout(repo_root() / "data" / "bird")
     if args.dry_run:
-        count, estimate = fixture_summary(dataset, config, prices, models)
+        summary = fixture_summary if args.fixture else live_summary
+        count, estimate = summary(dataset, config, prices, models)
         print(f"items: {count}")
         print(f"estimated_usd: {estimate:.6f}")
         return 0
     output = repo_root() / "results" / args.rq / _run_id()
+    runner = run_fixture if args.fixture else run_live
     try:
-        written = run_fixture(dataset, config, prices, models, output, repo_root() / "cache.db")
+        written = runner(dataset, config, prices, models, output, repo_root() / "cache.db")
     except BudgetExceededError as exc:
         print(str(exc), file=sys.stderr)
         return 2

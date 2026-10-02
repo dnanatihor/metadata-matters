@@ -1,0 +1,36 @@
+{
+  "cost_usd": 11.928374399999987,
+  "dataset_checksum": "7a1bd7a5545db6576e069541a703365eac0dcb7275c91939d17041149d2bae7e",
+  "ended_at": "2026-10-02T21:09:30.449435+00:00",
+  "estimated_usd": 19.2170076,
+  "git_commit": "05204d91fef0d6583269a475be40cbd765942550",
+  "item_count": 10500,
+  "model_ids": [
+    "gpt-4.1-mini",
+    "sentence-transformers/all-MiniLM-L6-v2",
+    "sentence-transformers/all-mpnet-base-v2"
+  ],
+  "package_versions": {
+    "metadata-matters": "0.1.0",
+    "numpy": "2.4.6",
+    "pydantic": "2.13.5",
+    "scipy": "1.17.1"
+  },
+  "prompt_version": "text_to_sql.v1",
+  "rq": "rq4",
+  "run_id": "20261002T185927Z-987f2cb7",
+  "sample_ids_file": "sample.json",
+  "seed": 0,
+  "started_at": "2026-10-02T18:59:42.570854+00:00",
+  "template_versions": [
+    "t0",
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+  ],
+  "token_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

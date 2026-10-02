@@ -1,7 +1,7 @@
 """Pydantic models for the YAML files under ``configs/``.
 
-Chat-model choice and a positive spend cap are left unset. SPEC.md §12.1 is
-still an open decision; ``budget.max_usd: 0`` means no paid run is authorised.
+The chat model is recorded in ADR 0004. ``budget.max_usd: 0`` still means that
+particular config authorises no paid spend.
 """
 
 from __future__ import annotations

@@ -3,5 +3,5 @@ sample:
   n: 500
   seed: 0
 budget:
-  max_usd: 0
+  max_usd: 4
 models: []

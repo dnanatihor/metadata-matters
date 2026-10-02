@@ -1,0 +1,4367 @@
+[
+  {
+    "mapping": {
+      "frpm": "frpm_legacy"
+    },
+    "question_id": 0,
+    "seed": 8,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 2,
+    "seed": 10,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 6,
+    "seed": 14,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_v1",
+      "satscores": "satscores_legacy"
+    },
+    "question_id": 10,
+    "seed": 18,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_v1",
+      "schools": "schools_legacy"
+    },
+    "question_id": 17,
+    "seed": 25,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 26,
+    "seed": 34,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_v1",
+      "schools": "schools_legacy"
+    },
+    "question_id": 27,
+    "seed": 35,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 30,
+    "seed": 38,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy"
+    },
+    "question_id": 31,
+    "seed": 39,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 32,
+    "seed": 40,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_v1",
+      "schools": "schools_legacy"
+    },
+    "question_id": 34,
+    "seed": 42,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 35,
+    "seed": 43,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 39,
+    "seed": 47,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 41,
+    "seed": 49,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 42,
+    "seed": 50,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 46,
+    "seed": 54,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 48,
+    "seed": 56,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 51,
+    "seed": 59,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "satscores": "satscores_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 52,
+    "seed": 60,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 56,
+    "seed": 64,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 60,
+    "seed": 68,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 65,
+    "seed": 73,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 69,
+    "seed": 77,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 70,
+    "seed": 78,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 74,
+    "seed": 82,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 79,
+    "seed": 87,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 80,
+    "seed": 88,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 83,
+    "seed": 91,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "schools": "schools_legacy"
+    },
+    "question_id": 86,
+    "seed": 94,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "frpm": "frpm_legacy",
+      "schools": "schools_v1"
+    },
+    "question_id": 87,
+    "seed": 95,
+    "source_checksum": "986817d793479801ed55133e55aa27e335422c0cd3866b54a3d6317b7c5f09c1"
+  },
+  {
+    "mapping": {
+      "district": "district_legacy"
+    },
+    "question_id": 91,
+    "seed": 99,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_legacy",
+      "district": "district_v1"
+    },
+    "question_id": 92,
+    "seed": 100,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_legacy",
+      "district": "district_v1"
+    },
+    "question_id": 94,
+    "seed": 102,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_v1",
+      "district": "district_legacy"
+    },
+    "question_id": 100,
+    "seed": 108,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_legacy",
+      "trans": "trans_v1"
+    },
+    "question_id": 104,
+    "seed": 112,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_legacy",
+      "loan": "loan_v1"
+    },
+    "question_id": 105,
+    "seed": 113,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_v1",
+      "district": "district_legacy"
+    },
+    "question_id": 107,
+    "seed": 115,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "disp": "disp_legacy",
+      "trans": "trans_v1"
+    },
+    "question_id": 110,
+    "seed": 118,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_v1",
+      "district": "district_legacy"
+    },
+    "question_id": 111,
+    "seed": 119,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "disp": "disp_v1",
+      "loan": "loan_legacy"
+    },
+    "question_id": 113,
+    "seed": 121,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_legacy",
+      "trans": "trans_v1"
+    },
+    "question_id": 116,
+    "seed": 124,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "loan": "loan_legacy"
+    },
+    "question_id": 117,
+    "seed": 125,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "loan": "loan_legacy"
+    },
+    "question_id": 118,
+    "seed": 126,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_legacy",
+      "district": "district_v1"
+    },
+    "question_id": 120,
+    "seed": 128,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_legacy",
+      "district": "district_v1"
+    },
+    "question_id": 128,
+    "seed": 136,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "district": "district_legacy"
+    },
+    "question_id": 133,
+    "seed": 141,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_v1",
+      "trans": "trans_legacy"
+    },
+    "question_id": 135,
+    "seed": 143,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "card": "card_legacy",
+      "disp": "disp_v1"
+    },
+    "question_id": 139,
+    "seed": 147,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_v1",
+      "disp": "disp_legacy"
+    },
+    "question_id": 146,
+    "seed": 154,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_legacy",
+      "district": "district_v1"
+    },
+    "question_id": 147,
+    "seed": 155,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_v1",
+      "district": "district_legacy"
+    },
+    "question_id": 152,
+    "seed": 160,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "card": "card_legacy",
+      "disp": "disp_v1"
+    },
+    "question_id": 153,
+    "seed": 161,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_v1",
+      "client": "client_legacy"
+    },
+    "question_id": 159,
+    "seed": 167,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_v1",
+      "district": "district_legacy"
+    },
+    "question_id": 162,
+    "seed": 170,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_v1",
+      "order": "order_legacy"
+    },
+    "question_id": 164,
+    "seed": 172,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_v1",
+      "district": "district_legacy"
+    },
+    "question_id": 165,
+    "seed": 173,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "trans": "trans_legacy"
+    },
+    "question_id": 170,
+    "seed": 178,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "disp": "disp_legacy"
+    },
+    "question_id": 172,
+    "seed": 180,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_legacy",
+      "disp": "disp_v1"
+    },
+    "question_id": 174,
+    "seed": 182,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_legacy",
+      "district": "district_v1"
+    },
+    "question_id": 180,
+    "seed": 188,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "client": "client_v1",
+      "district": "district_legacy"
+    },
+    "question_id": 185,
+    "seed": 193,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_legacy",
+      "disp": "disp_v1"
+    },
+    "question_id": 186,
+    "seed": 194,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "account": "account_legacy",
+      "loan": "loan_v1"
+    },
+    "question_id": 192,
+    "seed": 200,
+    "source_checksum": "d15d89cdb068a202b6f2b99342af44dffc1d52545b39ceaf62efdc0ba570101e"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 199,
+    "seed": 207,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 200,
+    "seed": 208,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_v1",
+      "connected": "connected_legacy"
+    },
+    "question_id": 209,
+    "seed": 217,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 211,
+    "seed": 219,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 214,
+    "seed": 222,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 216,
+    "seed": 224,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "connected": "connected_legacy"
+    },
+    "question_id": 224,
+    "seed": 232,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 230,
+    "seed": 238,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy"
+    },
+    "question_id": 231,
+    "seed": 239,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 236,
+    "seed": 244,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 245,
+    "seed": 253,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 247,
+    "seed": 255,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "bond": "bond_v1"
+    },
+    "question_id": 248,
+    "seed": 256,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_v1",
+      "connected": "connected_legacy"
+    },
+    "question_id": 249,
+    "seed": 257,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 250,
+    "seed": 258,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 253,
+    "seed": 261,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_v1",
+      "connected": "connected_legacy"
+    },
+    "question_id": 254,
+    "seed": 262,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy"
+    },
+    "question_id": 256,
+    "seed": 264,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_v1",
+      "molecule": "molecule_legacy"
+    },
+    "question_id": 260,
+    "seed": 268,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_v1",
+      "molecule": "molecule_legacy"
+    },
+    "question_id": 263,
+    "seed": 271,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "molecule": "molecule_legacy"
+    },
+    "question_id": 265,
+    "seed": 273,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 269,
+    "seed": 277,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "bond": "bond_v1"
+    },
+    "question_id": 272,
+    "seed": 280,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy"
+    },
+    "question_id": 275,
+    "seed": 283,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 276,
+    "seed": 284,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 277,
+    "seed": 285,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 279,
+    "seed": 287,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 283,
+    "seed": 291,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "bond": "bond_v1"
+    },
+    "question_id": 284,
+    "seed": 292,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy"
+    },
+    "question_id": 286,
+    "seed": 294,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy"
+    },
+    "question_id": 290,
+    "seed": 298,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy"
+    },
+    "question_id": 292,
+    "seed": 300,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 295,
+    "seed": 303,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_v1",
+      "connected": "connected_legacy"
+    },
+    "question_id": 296,
+    "seed": 304,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 298,
+    "seed": 306,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy"
+    },
+    "question_id": 301,
+    "seed": 309,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 302,
+    "seed": 310,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "bond": "bond_v1"
+    },
+    "question_id": 312,
+    "seed": 320,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy"
+    },
+    "question_id": 314,
+    "seed": 322,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 315,
+    "seed": 323,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 316,
+    "seed": 324,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "bond": "bond_legacy",
+      "connected": "connected_v1"
+    },
+    "question_id": 320,
+    "seed": 328,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_v1",
+      "molecule": "molecule_legacy"
+    },
+    "question_id": 325,
+    "seed": 333,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_v1",
+      "molecule": "molecule_legacy"
+    },
+    "question_id": 327,
+    "seed": 335,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "bond": "bond_v1"
+    },
+    "question_id": 328,
+    "seed": 336,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy"
+    },
+    "question_id": 333,
+    "seed": 341,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "atom": "atom_legacy",
+      "molecule": "molecule_v1"
+    },
+    "question_id": 338,
+    "seed": 346,
+    "source_checksum": "f5fa7f21af1ad878ff8fef1b0582b8cb2d7ed63dbac65ff16d2ba05667650c5b"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "legalities": "legalities_v1"
+    },
+    "question_id": 346,
+    "seed": 354,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "rulings": "rulings_v1"
+    },
+    "question_id": 347,
+    "seed": 355,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 351,
+    "seed": 359,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 353,
+    "seed": 361,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 354,
+    "seed": 362,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 355,
+    "seed": 363,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_v1",
+      "set_translations": "set_translations_legacy"
+    },
+    "question_id": 360,
+    "seed": 368,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "legalities": "legalities_v1"
+    },
+    "question_id": 361,
+    "seed": 369,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "rulings": "rulings_v1"
+    },
+    "question_id": 362,
+    "seed": 370,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "legalities": "legalities_v1"
+    },
+    "question_id": 363,
+    "seed": 371,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 371,
+    "seed": 379,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 372,
+    "seed": 380,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 373,
+    "seed": 381,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 375,
+    "seed": 383,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 377,
+    "seed": 385,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 380,
+    "seed": 388,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 381,
+    "seed": 389,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "rulings": "rulings_v1"
+    },
+    "question_id": 385,
+    "seed": 393,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "rulings": "rulings_v1"
+    },
+    "question_id": 389,
+    "seed": 397,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 394,
+    "seed": 402,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "foreign_data": "foreign_data_legacy"
+    },
+    "question_id": 403,
+    "seed": 411,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 405,
+    "seed": 413,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "rulings": "rulings_v1"
+    },
+    "question_id": 409,
+    "seed": 417,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 416,
+    "seed": 424,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 425,
+    "seed": 433,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 430,
+    "seed": 438,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 431,
+    "seed": 439,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 434,
+    "seed": 442,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 435,
+    "seed": 443,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_legacy"
+    },
+    "question_id": 438,
+    "seed": 446,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 441,
+    "seed": 449,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 444,
+    "seed": 452,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 449,
+    "seed": 457,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 453,
+    "seed": 461,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 457,
+    "seed": 465,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 458,
+    "seed": 466,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 461,
+    "seed": 469,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_v1",
+      "set_translations": "set_translations_legacy"
+    },
+    "question_id": 462,
+    "seed": 470,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 468,
+    "seed": 476,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "sets": "sets_v1"
+    },
+    "question_id": 470,
+    "seed": 478,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 471,
+    "seed": 479,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 472,
+    "seed": 480,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "sets": "sets_v1"
+    },
+    "question_id": 473,
+    "seed": 481,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "sets": "sets_v1"
+    },
+    "question_id": 478,
+    "seed": 486,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 480,
+    "seed": 488,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "foreign_data": "foreign_data_v1"
+    },
+    "question_id": 482,
+    "seed": 490,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "foreign_data": "foreign_data_legacy",
+      "sets": "sets_v1"
+    },
+    "question_id": 483,
+    "seed": 491,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "sets": "sets_legacy"
+    },
+    "question_id": 488,
+    "seed": 496,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "sets": "sets_legacy"
+    },
+    "question_id": 489,
+    "seed": 497,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "sets": "sets_legacy"
+    },
+    "question_id": 491,
+    "seed": 499,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "sets": "sets_legacy"
+    },
+    "question_id": 492,
+    "seed": 500,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 499,
+    "seed": 507,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "set_translations": "set_translations_v1"
+    },
+    "question_id": 500,
+    "seed": 508,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 502,
+    "seed": 510,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 508,
+    "seed": 516,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "sets": "sets_legacy"
+    },
+    "question_id": 509,
+    "seed": 517,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy"
+    },
+    "question_id": 512,
+    "seed": 520,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "legalities": "legalities_v1"
+    },
+    "question_id": 514,
+    "seed": 522,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_legacy",
+      "legalities": "legalities_v1"
+    },
+    "question_id": 518,
+    "seed": 526,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "legalities": "legalities_legacy"
+    },
+    "question_id": 525,
+    "seed": 533,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "cards": "cards_v1",
+      "legalities": "legalities_legacy"
+    },
+    "question_id": 528,
+    "seed": 536,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "set_translations": "set_translations_v1",
+      "sets": "sets_legacy"
+    },
+    "question_id": 529,
+    "seed": 537,
+    "source_checksum": "c98bdb57fe7474da798b407785544b9af0daaad5d61fd21e2a73309493bc1227"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 531,
+    "seed": 539,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 532,
+    "seed": 540,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 538,
+    "seed": 546,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 540,
+    "seed": 548,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 541,
+    "seed": 549,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 545,
+    "seed": 553,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 548,
+    "seed": 556,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "votes": "votes_legacy"
+    },
+    "question_id": 559,
+    "seed": 567,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_v1",
+      "posts": "posts_legacy"
+    },
+    "question_id": 563,
+    "seed": 571,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 566,
+    "seed": 574,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 574,
+    "seed": 582,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 575,
+    "seed": 583,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 580,
+    "seed": 588,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 581,
+    "seed": 589,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 582,
+    "seed": 590,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_legacy"
+    },
+    "question_id": 592,
+    "seed": 600,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 593,
+    "seed": 601,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postLinks": "postLinks_v1",
+      "posts": "posts_legacy"
+    },
+    "question_id": 601,
+    "seed": 609,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_legacy",
+      "posts": "posts_v1"
+    },
+    "question_id": 602,
+    "seed": 610,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_v1",
+      "posts": "posts_legacy"
+    },
+    "question_id": 603,
+    "seed": 611,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 604,
+    "seed": 612,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_legacy"
+    },
+    "question_id": 605,
+    "seed": 613,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 610,
+    "seed": 618,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 613,
+    "seed": 621,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 615,
+    "seed": 623,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 623,
+    "seed": 631,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 624,
+    "seed": 632,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 625,
+    "seed": 633,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 627,
+    "seed": 635,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 630,
+    "seed": 638,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 634,
+    "seed": 642,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 635,
+    "seed": 643,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 637,
+    "seed": 645,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_legacy"
+    },
+    "question_id": 642,
+    "seed": 650,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 643,
+    "seed": 651,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy"
+    },
+    "question_id": 644,
+    "seed": 652,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_v1",
+      "posts": "posts_legacy"
+    },
+    "question_id": 646,
+    "seed": 654,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 648,
+    "seed": 656,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "postHistory": "postHistory_legacy",
+      "posts": "posts_v1"
+    },
+    "question_id": 649,
+    "seed": 657,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 656,
+    "seed": 664,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy",
+      "votes": "votes_v1"
+    },
+    "question_id": 657,
+    "seed": 665,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy"
+    },
+    "question_id": 658,
+    "seed": 666,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy"
+    },
+    "question_id": 660,
+    "seed": 668,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 663,
+    "seed": 671,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 671,
+    "seed": 679,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_v1",
+      "votes": "votes_legacy"
+    },
+    "question_id": 673,
+    "seed": 681,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 678,
+    "seed": 686,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy"
+    },
+    "question_id": 686,
+    "seed": 694,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "badges": "badges_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 692,
+    "seed": 700,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 693,
+    "seed": 701,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "users": "users_legacy"
+    },
+    "question_id": 697,
+    "seed": 705,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "votes": "votes_legacy"
+    },
+    "question_id": 700,
+    "seed": 708,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 701,
+    "seed": 709,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "posts": "posts_legacy"
+    },
+    "question_id": 702,
+    "seed": 710,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "tags": "tags_legacy"
+    },
+    "question_id": 703,
+    "seed": 711,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "tags": "tags_legacy"
+    },
+    "question_id": 704,
+    "seed": 712,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 705,
+    "seed": 713,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 708,
+    "seed": 716,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 711,
+    "seed": 719,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_legacy",
+      "users": "users_v1"
+    },
+    "question_id": 714,
+    "seed": 722,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "comments": "comments_v1",
+      "users": "users_legacy"
+    },
+    "question_id": 716,
+    "seed": 724,
+    "source_checksum": "92101be6d2a9f6adceea59d38f6d1c556087f9eea1432432a21268cb1348036d"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 718,
+    "seed": 726,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 719,
+    "seed": 727,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "colour": "colour_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 724,
+    "seed": 732,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 725,
+    "seed": 733,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 726,
+    "seed": 734,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 730,
+    "seed": 738,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 731,
+    "seed": 739,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 732,
+    "seed": 740,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "attribute": "attribute_v1",
+      "hero_attribute": "hero_attribute_legacy"
+    },
+    "question_id": 736,
+    "seed": 744,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "race": "race_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 737,
+    "seed": 745,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "attribute": "attribute_v1",
+      "hero_attribute": "hero_attribute_legacy"
+    },
+    "question_id": 738,
+    "seed": 746,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 741,
+    "seed": 749,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "race": "race_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 742,
+    "seed": 750,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 747,
+    "seed": 755,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 749,
+    "seed": 757,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "superhero": "superhero_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 751,
+    "seed": 759,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "race": "race_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 752,
+    "seed": 760,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 754,
+    "seed": 762,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "race": "race_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 755,
+    "seed": 763,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 760,
+    "seed": 768,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 768,
+    "seed": 776,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "colour": "colour_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 770,
+    "seed": 778,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "race": "race_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 774,
+    "seed": 782,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "superhero": "superhero_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 778,
+    "seed": 786,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_legacy",
+      "superhero": "superhero_v1"
+    },
+    "question_id": 779,
+    "seed": 787,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "colour": "colour_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 782,
+    "seed": 790,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "attribute": "attribute_v1",
+      "hero_attribute": "hero_attribute_legacy"
+    },
+    "question_id": 786,
+    "seed": 794,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "gender": "gender_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 793,
+    "seed": 801,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "attribute": "attribute_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 794,
+    "seed": 802,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "alignment": "alignment_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 795,
+    "seed": 803,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "gender": "gender_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 801,
+    "seed": 809,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 807,
+    "seed": 815,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_power": "hero_power_legacy",
+      "superpower": "superpower_v1"
+    },
+    "question_id": 811,
+    "seed": 819,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "alignment": "alignment_v1",
+      "hero_attribute": "hero_attribute_legacy"
+    },
+    "question_id": 813,
+    "seed": 821,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "alignment": "alignment_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 822,
+    "seed": 830,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 826,
+    "seed": 834,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_legacy",
+      "race": "race_v1"
+    },
+    "question_id": 827,
+    "seed": 835,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "publisher": "publisher_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 829,
+    "seed": 837,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "colour": "colour_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 831,
+    "seed": 839,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "alignment": "alignment_v1",
+      "publisher": "publisher_legacy"
+    },
+    "question_id": 835,
+    "seed": 843,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "hero_attribute": "hero_attribute_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 840,
+    "seed": 848,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "alignment": "alignment_v1",
+      "superhero": "superhero_legacy"
+    },
+    "question_id": 842,
+    "seed": 850,
+    "source_checksum": "75e94a2c3236ee3bb2c01fb97a1c4b4c1c269bcefd4eab1d04be323d2d0825b1"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "qualifying": "qualifying_legacy"
+    },
+    "question_id": 846,
+    "seed": 854,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "circuits": "circuits_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 849,
+    "seed": 857,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "circuits": "circuits_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 853,
+    "seed": 861,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "circuits": "circuits_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 856,
+    "seed": 864,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "qualifying": "qualifying_legacy"
+    },
+    "question_id": 860,
+    "seed": 868,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "qualifying": "qualifying_legacy"
+    },
+    "question_id": 861,
+    "seed": 869,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 864,
+    "seed": 872,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "lapTimes": "lapTimes_legacy"
+    },
+    "question_id": 866,
+    "seed": 874,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "qualifying": "qualifying_legacy"
+    },
+    "question_id": 871,
+    "seed": 879,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy",
+      "seasons": "seasons_v1"
+    },
+    "question_id": 875,
+    "seed": 883,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 876,
+    "seed": 884,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 877,
+    "seed": 885,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 879,
+    "seed": 887,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 880,
+    "seed": 888,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy"
+    },
+    "question_id": 883,
+    "seed": 891,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy"
+    },
+    "question_id": 885,
+    "seed": 893,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy"
+    },
+    "question_id": 886,
+    "seed": 894,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy"
+    },
+    "question_id": 887,
+    "seed": 895,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "circuits": "circuits_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 890,
+    "seed": 898,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "lapTimes": "lapTimes_v1",
+      "races": "races_legacy"
+    },
+    "question_id": 895,
+    "seed": 903,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "driverStandings": "driverStandings_v1",
+      "races": "races_legacy"
+    },
+    "question_id": 902,
+    "seed": 910,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "driverStandings": "driverStandings_legacy",
+      "drivers": "drivers_v1"
+    },
+    "question_id": 906,
+    "seed": 914,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 914,
+    "seed": 922,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 917,
+    "seed": 925,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 918,
+    "seed": 926,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "results": "results_legacy"
+    },
+    "question_id": 929,
+    "seed": 937,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "races": "races_legacy"
+    },
+    "question_id": 930,
+    "seed": 938,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 931,
+    "seed": 939,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "results": "results_legacy"
+    },
+    "question_id": 934,
+    "seed": 942,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_v1",
+      "results": "results_legacy"
+    },
+    "question_id": 937,
+    "seed": 945,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 942,
+    "seed": 950,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "circuits": "circuits_legacy"
+    },
+    "question_id": 945,
+    "seed": 953,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 947,
+    "seed": 955,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "results": "results_legacy"
+    },
+    "question_id": 956,
+    "seed": 964,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "results": "results_legacy"
+    },
+    "question_id": 962,
+    "seed": 970,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 964,
+    "seed": 972,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy"
+    },
+    "question_id": 965,
+    "seed": 973,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 968,
+    "seed": 976,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 969,
+    "seed": 977,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "pitStops": "pitStops_legacy"
+    },
+    "question_id": 970,
+    "seed": 978,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "pitStops": "pitStops_legacy"
+    },
+    "question_id": 973,
+    "seed": 981,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_v1",
+      "results": "results_legacy"
+    },
+    "question_id": 974,
+    "seed": 982,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "lapTimes": "lapTimes_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 975,
+    "seed": 983,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "results": "results_legacy"
+    },
+    "question_id": 979,
+    "seed": 987,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 982,
+    "seed": 990,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "lapTimes": "lapTimes_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 986,
+    "seed": 994,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 995,
+    "seed": 1003,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy"
+    },
+    "question_id": 996,
+    "seed": 1004,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "driverStandings": "driverStandings_legacy"
+    },
+    "question_id": 998,
+    "seed": 1006,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_legacy",
+      "results": "results_v1"
+    },
+    "question_id": 999,
+    "seed": 1007,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "qualifying": "qualifying_legacy",
+      "races": "races_v1"
+    },
+    "question_id": 1001,
+    "seed": 1009,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "driverStandings": "driverStandings_v1",
+      "drivers": "drivers_legacy"
+    },
+    "question_id": 1002,
+    "seed": 1010,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "driverStandings": "driverStandings_legacy",
+      "drivers": "drivers_v1"
+    },
+    "question_id": 1004,
+    "seed": 1012,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_v1",
+      "pitStops": "pitStops_legacy"
+    },
+    "question_id": 1007,
+    "seed": 1015,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "drivers": "drivers_legacy",
+      "lapTimes": "lapTimes_v1"
+    },
+    "question_id": 1011,
+    "seed": 1019,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "races": "races_v1",
+      "results": "results_legacy"
+    },
+    "question_id": 1014,
+    "seed": 1022,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "circuits": "circuits_v1",
+      "races": "races_legacy"
+    },
+    "question_id": 1017,
+    "seed": 1025,
+    "source_checksum": "17185981cd747f6cdc374cb02a6096db3130e6ec2ddc582fe1686a28fb4c4c8a"
+  },
+  {
+    "mapping": {
+      "Match": "Match_legacy",
+      "Team": "Team_v1"
+    },
+    "question_id": 1026,
+    "seed": 1034,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1032,
+    "seed": 1040,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Team_Attributes": "Team_Attributes_legacy"
+    },
+    "question_id": 1035,
+    "seed": 1043,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1038,
+    "seed": 1046,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1039,
+    "seed": 1047,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Team": "Team_legacy"
+    },
+    "question_id": 1046,
+    "seed": 1054,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1048,
+    "seed": 1056,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1049,
+    "seed": 1057,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Team": "Team_legacy"
+    },
+    "question_id": 1053,
+    "seed": 1061,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1054,
+    "seed": 1062,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1055,
+    "seed": 1063,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy"
+    },
+    "question_id": 1059,
+    "seed": 1067,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy"
+    },
+    "question_id": 1060,
+    "seed": 1068,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1064,
+    "seed": 1072,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Team": "Team_legacy",
+      "Team_Attributes": "Team_Attributes_v1"
+    },
+    "question_id": 1065,
+    "seed": 1073,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Team": "Team_legacy",
+      "Team_Attributes": "Team_Attributes_v1"
+    },
+    "question_id": 1071,
+    "seed": 1079,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1073,
+    "seed": 1081,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1076,
+    "seed": 1084,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player_Attributes": "Player_Attributes_legacy"
+    },
+    "question_id": 1080,
+    "seed": 1088,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Country": "Country_legacy",
+      "League": "League_v1"
+    },
+    "question_id": 1082,
+    "seed": 1090,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1083,
+    "seed": 1091,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1084,
+    "seed": 1092,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Country": "Country_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1089,
+    "seed": 1097,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1090,
+    "seed": 1098,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1092,
+    "seed": 1100,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1100,
+    "seed": 1108,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1104,
+    "seed": 1112,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1105,
+    "seed": 1113,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1106,
+    "seed": 1114,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Team": "Team_legacy",
+      "Team_Attributes": "Team_Attributes_v1"
+    },
+    "question_id": 1110,
+    "seed": 1118,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1115,
+    "seed": 1123,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy"
+    },
+    "question_id": 1117,
+    "seed": 1125,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy"
+    },
+    "question_id": 1121,
+    "seed": 1129,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1124,
+    "seed": 1132,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player": "Player_legacy",
+      "Player_Attributes": "Player_Attributes_v1"
+    },
+    "question_id": 1125,
+    "seed": 1133,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Match": "Match_legacy",
+      "Player": "Player_v1"
+    },
+    "question_id": 1126,
+    "seed": 1134,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Player_Attributes": "Player_Attributes_legacy"
+    },
+    "question_id": 1135,
+    "seed": 1143,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Country": "Country_legacy",
+      "League": "League_v1"
+    },
+    "question_id": 1138,
+    "seed": 1146,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1139,
+    "seed": 1147,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1143,
+    "seed": 1151,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "League": "League_legacy",
+      "Match": "Match_v1"
+    },
+    "question_id": 1145,
+    "seed": 1153,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Match": "Match_legacy",
+      "Team": "Team_v1"
+    },
+    "question_id": 1146,
+    "seed": 1154,
+    "source_checksum": "e4d361dbeec6591a4b315877c0c481da05c8ff5a3d389b34d6e17b6f15bee4e0"
+  },
+  {
+    "mapping": {
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1149,
+    "seed": 1157,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1151,
+    "seed": 1159,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1156,
+    "seed": 1164,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1157,
+    "seed": 1165,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1158,
+    "seed": 1166,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1160,
+    "seed": 1168,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1162,
+    "seed": 1170,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1165,
+    "seed": 1173,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1172,
+    "seed": 1180,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1178,
+    "seed": 1186,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_legacy",
+      "Patient": "Patient_v1"
+    },
+    "question_id": 1182,
+    "seed": 1190,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1184,
+    "seed": 1192,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_legacy"
+    },
+    "question_id": 1186,
+    "seed": 1194,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_legacy"
+    },
+    "question_id": 1190,
+    "seed": 1198,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1192,
+    "seed": 1200,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1197,
+    "seed": 1205,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_legacy"
+    },
+    "question_id": 1200,
+    "seed": 1208,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1202,
+    "seed": 1210,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_legacy"
+    },
+    "question_id": 1206,
+    "seed": 1214,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1208,
+    "seed": 1216,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_legacy"
+    },
+    "question_id": 1210,
+    "seed": 1218,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1213,
+    "seed": 1221,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1214,
+    "seed": 1222,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1215,
+    "seed": 1223,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1220,
+    "seed": 1228,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1225,
+    "seed": 1233,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1233,
+    "seed": 1241,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1236,
+    "seed": 1244,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1238,
+    "seed": 1246,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1242,
+    "seed": 1250,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1243,
+    "seed": 1251,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1244,
+    "seed": 1252,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1246,
+    "seed": 1254,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1249,
+    "seed": 1257,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1251,
+    "seed": 1259,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Laboratory": "Laboratory_legacy"
+    },
+    "question_id": 1252,
+    "seed": 1260,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1254,
+    "seed": 1262,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1260,
+    "seed": 1268,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1266,
+    "seed": 1274,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Laboratory": "Laboratory_legacy"
+    },
+    "question_id": 1270,
+    "seed": 1278,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1271,
+    "seed": 1279,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1277,
+    "seed": 1285,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1280,
+    "seed": 1288,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1281,
+    "seed": 1289,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1282,
+    "seed": 1290,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1283,
+    "seed": 1291,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1285,
+    "seed": 1293,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Laboratory": "Laboratory_legacy"
+    },
+    "question_id": 1295,
+    "seed": 1303,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1296,
+    "seed": 1304,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Examination": "Examination_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1302,
+    "seed": 1310,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1305,
+    "seed": 1313,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1306,
+    "seed": 1314,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "Laboratory": "Laboratory_v1",
+      "Patient": "Patient_legacy"
+    },
+    "question_id": 1308,
+    "seed": 1316,
+    "source_checksum": "e7e16d74b4731b4b8d33fdbe8c29cd5622620788ce8d1f335631f65fc7cf1db9"
+  },
+  {
+    "mapping": {
+      "attendance": "attendance_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1315,
+    "seed": 1323,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "attendance": "attendance_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1323,
+    "seed": 1331,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "attendance": "attendance_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1324,
+    "seed": 1332,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1326,
+    "seed": 1334,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1328,
+    "seed": 1336,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "income": "income_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1331,
+    "seed": 1339,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1335,
+    "seed": 1343,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1336,
+    "seed": 1344,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "event": "event_legacy",
+      "expense": "expense_v1"
+    },
+    "question_id": 1338,
+    "seed": 1346,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "expense": "expense_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1339,
+    "seed": 1347,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1340,
+    "seed": 1348,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "income": "income_legacy"
+    },
+    "question_id": 1344,
+    "seed": 1352,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "member": "member_legacy",
+      "zip_code": "zip_code_v1"
+    },
+    "question_id": 1353,
+    "seed": 1361,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_legacy",
+      "event": "event_v1"
+    },
+    "question_id": 1360,
+    "seed": 1368,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "expense": "expense_legacy"
+    },
+    "question_id": 1361,
+    "seed": 1369,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "zip_code": "zip_code_legacy"
+    },
+    "question_id": 1362,
+    "seed": 1370,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "event": "event_legacy",
+      "member": "member_v1"
+    },
+    "question_id": 1366,
+    "seed": 1374,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1368,
+    "seed": 1376,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "attendance": "attendance_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1371,
+    "seed": 1379,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "member": "member_legacy"
+    },
+    "question_id": 1377,
+    "seed": 1385,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "event": "event_legacy"
+    },
+    "question_id": 1379,
+    "seed": 1387,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "member": "member_legacy",
+      "zip_code": "zip_code_v1"
+    },
+    "question_id": 1383,
+    "seed": 1391,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "income": "income_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1384,
+    "seed": 1392,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1386,
+    "seed": 1394,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "income": "income_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1388,
+    "seed": 1396,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_legacy"
+    },
+    "question_id": 1391,
+    "seed": 1399,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "income": "income_legacy"
+    },
+    "question_id": 1392,
+    "seed": 1400,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_legacy"
+    },
+    "question_id": 1397,
+    "seed": 1405,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_legacy",
+      "event": "event_v1"
+    },
+    "question_id": 1403,
+    "seed": 1411,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1405,
+    "seed": 1413,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "expense": "expense_legacy"
+    },
+    "question_id": 1409,
+    "seed": 1417,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "expense": "expense_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1411,
+    "seed": 1419,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "expense": "expense_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1413,
+    "seed": 1421,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_legacy",
+      "member": "member_v1"
+    },
+    "question_id": 1414,
+    "seed": 1422,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_legacy",
+      "member": "member_v1"
+    },
+    "question_id": 1420,
+    "seed": 1428,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "income": "income_legacy"
+    },
+    "question_id": 1423,
+    "seed": 1431,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "member": "member_legacy"
+    },
+    "question_id": 1424,
+    "seed": 1432,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "attendance": "attendance_legacy",
+      "member": "member_v1"
+    },
+    "question_id": 1429,
+    "seed": 1437,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "income": "income_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1432,
+    "seed": 1440,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "attendance": "attendance_v1",
+      "expense": "expense_legacy"
+    },
+    "question_id": 1437,
+    "seed": 1445,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1439,
+    "seed": 1447,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "event": "event_legacy"
+    },
+    "question_id": 1443,
+    "seed": 1451,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "zip_code": "zip_code_legacy"
+    },
+    "question_id": 1446,
+    "seed": 1454,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_v1",
+      "event": "event_legacy"
+    },
+    "question_id": 1447,
+    "seed": 1455,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1449,
+    "seed": 1457,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "expense": "expense_legacy",
+      "member": "member_v1"
+    },
+    "question_id": 1452,
+    "seed": 1460,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "event": "event_legacy",
+      "expense": "expense_v1"
+    },
+    "question_id": 1454,
+    "seed": 1462,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_v1",
+      "expense": "expense_legacy"
+    },
+    "question_id": 1455,
+    "seed": 1463,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "member": "member_legacy",
+      "zip_code": "zip_code_v1"
+    },
+    "question_id": 1458,
+    "seed": 1466,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1459,
+    "seed": 1467,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "major": "major_v1",
+      "member": "member_legacy"
+    },
+    "question_id": 1461,
+    "seed": 1469,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "budget": "budget_legacy",
+      "event": "event_v1"
+    },
+    "question_id": 1467,
+    "seed": 1475,
+    "source_checksum": "eb89bcfe97eefa386a27904ec5aa15159811a7eac894ec659a36e48fa9f76b77"
+  },
+  {
+    "mapping": {
+      "customers": "customers_legacy",
+      "yearmonth": "yearmonth_v1"
+    },
+    "question_id": 1472,
+    "seed": 1480,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "customers": "customers_legacy",
+      "yearmonth": "yearmonth_v1"
+    },
+    "question_id": 1482,
+    "seed": 1490,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "yearmonth": "yearmonth_legacy"
+    },
+    "question_id": 1483,
+    "seed": 1491,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "customers": "customers_legacy",
+      "yearmonth": "yearmonth_v1"
+    },
+    "question_id": 1489,
+    "seed": 1497,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "customers": "customers_legacy",
+      "yearmonth": "yearmonth_v1"
+    },
+    "question_id": 1490,
+    "seed": 1498,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_legacy"
+    },
+    "question_id": 1491,
+    "seed": 1499,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "yearmonth": "yearmonth_legacy"
+    },
+    "question_id": 1493,
+    "seed": 1501,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_legacy"
+    },
+    "question_id": 1494,
+    "seed": 1502,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "customers": "customers_legacy",
+      "yearmonth": "yearmonth_v1"
+    },
+    "question_id": 1499,
+    "seed": 1507,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "customers": "customers_v1",
+      "yearmonth": "yearmonth_legacy"
+    },
+    "question_id": 1505,
+    "seed": 1513,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1508,
+    "seed": 1516,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "customers": "customers_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1511,
+    "seed": 1519,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "customers": "customers_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1517,
+    "seed": 1525,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1518,
+    "seed": 1526,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1521,
+    "seed": 1529,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1523,
+    "seed": 1531,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1524,
+    "seed": 1532,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1527,
+    "seed": 1535,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "gasstations": "gasstations_v1",
+      "transactions_1k": "transactions_1k_legacy"
+    },
+    "question_id": 1529,
+    "seed": 1537,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  },
+  {
+    "mapping": {
+      "transactions_1k": "transactions_1k_legacy",
+      "yearmonth": "yearmonth_v1"
+    },
+    "question_id": 1531,
+    "seed": 1539,
+    "source_checksum": "b3d149ad05746dbbe5116e229e17e18f09c39db43cf117d9ef3441753608b691"
+  }
+]

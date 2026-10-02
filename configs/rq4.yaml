@@ -3,7 +3,7 @@ sample:
   n: 500
   seed: 0
 budget:
-  max_usd: 0
+  max_usd: 30
 models:
   - sentence-transformers/all-MiniLM-L6-v2
   - sentence-transformers/all-mpnet-base-v2

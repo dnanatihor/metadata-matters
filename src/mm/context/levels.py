@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 from enum import StrEnum
+from functools import lru_cache
+from pathlib import Path
 
 from mm.context.ddl import create_table_statements
 from mm.data.bird import ColumnDescription, Database, open_readonly
@@ -132,16 +134,27 @@ def _sample_values(
     table: str,
     columns: tuple[str, ...],
 ) -> dict[str, tuple[str, ...]]:
-    found: dict[str, tuple[str, ...]] = {}
-    with open_readonly(database.sqlite_path) as connection:
+    cached = _cached_samples(str(database.sqlite_path.resolve()), table, columns)
+    return dict(cached)
+
+
+@lru_cache(maxsize=4096)
+def _cached_samples(
+    sqlite_path: str,
+    table: str,
+    columns: tuple[str, ...],
+) -> tuple[tuple[str, tuple[str, ...]], ...]:
+    """Sample values for one table. Repeated questions on the same database reuse this."""
+    found: list[tuple[str, tuple[str, ...]]] = []
+    with open_readonly(Path(sqlite_path)) as connection:
         for column in columns:
             query = (
                 f"SELECT DISTINCT {_quote(column)} FROM {_quote(table)} "
                 f"WHERE {_quote(column)} IS NOT NULL ORDER BY 1 LIMIT {SAMPLE_LIMIT}"
             )
             rows = connection.execute(query).fetchall()
-            found[column] = tuple(truncate_sample(row[0]) for row in rows)
-    return found
+            found.append((column, tuple(truncate_sample(row[0]) for row in rows)))
+    return tuple(found)
 
 
 def _quote(identifier: str) -> str:

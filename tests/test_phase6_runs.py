@@ -21,12 +21,19 @@ def test_every_committed_run_has_a_manifest_and_outputs() -> None:
         assert list((run / "plots").glob("*.png"))
 
 
-def test_readme_results_section_names_the_committed_runs() -> None:
+def test_readme_results_section_names_the_latest_run_per_rq() -> None:
     text = README.read_text(encoding="utf-8")
     start = text.index("<!-- results:start -->")
     end = text.index("<!-- results:end -->")
     section = text[start:end]
     assert section.strip() != "<!-- results:start -->"
-    for run in RESULTS.glob("*/*"):
-        if (run / "run.json").is_file():
-            assert run.name in section
+    latest: dict[str, tuple[str, Path]] = {}
+    for manifest in RESULTS.glob("*/*/run.json"):
+        payload = json.loads(manifest.read_text(encoding="utf-8"))
+        rq = str(payload.get("rq", manifest.parent.parent.name))
+        started = str(payload.get("started_at", ""))
+        current = latest.get(rq)
+        if current is None or started >= current[0]:
+            latest[rq] = (started, manifest.parent)
+    for _started, run in latest.values():
+        assert run.name in section

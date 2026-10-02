@@ -1,10 +1,14 @@
 # Hand-maintained token prices. Local embedding models cost nothing here.
-# Check vendor prices before any paid run; do not treat these zeros as a quote
-# for a hosted model.
+# gpt-4.1-mini standard rates checked on 2026-10-02 at
+# https://developers.openai.com/api/docs/models/gpt-4.1-mini : $0.40 / $1.60
+# per million input / output tokens. Cached and batch rates are not used.
 prices:
   - model_id: stub-gold
     usd_per_million_input_tokens: 0
     usd_per_million_output_tokens: 0
+  - model_id: gpt-4.1-mini
+    usd_per_million_input_tokens: 0.40
+    usd_per_million_output_tokens: 1.60
   - model_id: sentence-transformers/all-MiniLM-L6-v2
     usd_per_million_input_tokens: 0
     usd_per_million_output_tokens: 0

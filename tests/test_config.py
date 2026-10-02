@@ -27,7 +27,7 @@ def test_run_configs_load_with_default_sample() -> None:
         assert loaded.rq == name
         assert loaded.sample.n == 500
         assert loaded.sample.seed == 0
-        assert loaded.budget.max_usd == 0
+        assert loaded.budget.max_usd == {"rq1": 5, "rq2": 4, "rq3": 0, "rq4": 30}[name]
 
 
 def test_rq3_names_two_local_embedding_models() -> None:

@@ -16,6 +16,13 @@ dependencies = [
     "sqlglot>=26.0",
 ]
 
+[project.optional-dependencies]
+live = [
+    "langchain>=0.3",
+    "langchain-openai>=0.3",
+    "sentence-transformers>=3.0",
+]
+
 [dependency-groups]
 dev = [
     "mypy>=1.15",
@@ -55,7 +62,7 @@ packages = ["mm"]
 namespace_packages = false
 
 [[tool.mypy.overrides]]
-module = ["matplotlib.*", "pandas.*"]
+module = ["matplotlib.*", "pandas.*", "langchain.*", "sentence_transformers.*"]
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]

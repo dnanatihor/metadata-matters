@@ -1,6 +1,9 @@
-# Two local sentence-transformers models, as required for schema retrieval.
-# Chat models are not listed: SPEC.md §12.1 (providers and spend) is still open.
+# Chat model and spend cap: docs/adr/0004-chat-model-and-budget.md.
+# The two local sentence-transformers models are required for schema retrieval.
 models:
+  - id: gpt-4.1-mini
+    kind: chat
+    provider: openai
   - id: sentence-transformers/all-MiniLM-L6-v2
     kind: embedding
     provider: sentence-transformers
