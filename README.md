@@ -7,7 +7,7 @@
 
 ![demo](docs/demo.gif)
 
-TODO: `docs/demo.gif` is a placeholder until a person records it. The headline charts from the fixture runs are execution accuracy by metadata level and decoy usage by condition.
+Headline charts from the live 500-question BIRD runs: execution accuracy by metadata level (RQ1), then decoy usage by condition (RQ2).
 
 ![Execution accuracy by metadata level](results/rq1/20261002T172038Z-0d9ae03c/plots/metrics.png)
 
