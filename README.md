@@ -7,7 +7,7 @@
 
 ![demo](docs/demo.gif)
 
-Headline charts from the live 500-question BIRD runs: execution accuracy by metadata level (RQ1), then decoy usage by condition (RQ2).
+Terminal recording (`docs/demo.tape` via `vhs`): fixture dry-run and run, `mm readme`, then the live RQ1/RQ2 metrics. Re-record with `PATH="$HOME/.local/bin:$HOME/go/bin:$PATH" vhs docs/demo.tape`.
 
 ![Execution accuracy by metadata level](results/rq1/20261002T172038Z-0d9ae03c/plots/metrics.png)
 

@@ -17,5 +17,5 @@ and this project uses [Semantic Versioning](https://semver.org/).
 - Phase 5 reports and plots for fixture runs of RQ1-RQ4, and `mm readme`.
 - Phase 6 fixture runs of RQ1-RQ4, generated README results, and `docs/findings.md`.
 - Live BIRD-dev runs (500 questions) for RQ1-RQ4 with `gpt-4.1-mini` and local sentence-transformers.
-- Recorded `docs/demo.gif` from the live RQ1 and RQ2 headline charts.
+- Recorded `docs/demo.gif` with `vhs` from `docs/demo.tape` (fixture CLI + live metrics).
 - Live runs call `gpt-4.1-mini` and local sentence-transformers when `--fixture` is omitted.
